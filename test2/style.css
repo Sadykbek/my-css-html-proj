@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  margin: 0 117px;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+nav ul {
+  font-family: "Quicksand", sans-serif;
+  list-style-type: none;
+  display: flex;
+  width: 427px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 12px;
+}
+nav ul li:hover {
+  cursor: pointer;
+  color: rgba(94, 129, 254, 1);
+  font-weight: 700;
+}
+nav ul span {
+  color: rgba(94, 129, 254, 1);
+  font-weight: 700;
+}
+.first-header,
+.second-header {
+  display: flex;
+  align-items: center;
+}
+.social-media {
+  margin-right: 40px;
+  width: 162px;
+  display: flex;
+  justify-content: space-between;
+}
+.second-header button {
+  width: 120px;
+  background-color: rgba(210, 225, 255, 1);
+  color: rgba(58, 121, 255, 1);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+}
+.second-header button:hover {
+  cursor: pointer;
+}
+
+.herotext {
+  z-index: -2;
+  height: 80vh;
+  width: 100vw;
+  text-align: center;
+  padding-top: 90px;
+  background: linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+}
+.herobg {
+  width: 100%;
+  position: absolute;
+  top: 5;
+  left: 0;
+  z-index: -1;
+}
+.herotext p {
+  position: relative;
+  margin-top: 90px;
+  text-align: center;
+  color: rgba(61, 79, 159, 1);
+  font-weight: 500;
+  size: 10px;
+  font-family: "Roboto Serif", serif;
+}
+.herohead {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  font-family: "Roboto Serif", serif;
+  color: rgba(61, 79, 159, 1);
+}
+.herohead span {
+  font-weight: 700;
+}
+.heroreg {
+  margin: auto;
+  width: 570px;
+  font-weight: 400;
+  color: rgba(141, 150, 189, 1);
+  line-height: 28px;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+}
+.half-circle1 {
+  width: 74.5px;
+  height: 76px;
+  top: 256px;
+  left: 0.5px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  background-color: #fff; /* Цвет вашего полукруга */
+  border-radius: 0% 100% 0 0; /* Установите радиус скругления */
+  z-index: 0; /* Устанавливаем z-index ниже, чем у контента, чтобы полукруг был под контентом */
+}
+.circleh {
+  border-radius: 300% 300% 0 0;
+  background-color: #fff;
+  position: absolute;
+}
+.half-circle2 {
+  width: 45px;
+  height: 23px;
+  top: 172px;
+  left: 253px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle3 {
+  width: 60px;
+  height: 40px;
+  top: 476.18px;
+  left: 261.27px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle4 {
+  width: 32.63px;
+  height: 20px;
+  top: 500.45px;
+  left: 310.37px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle5 {
+  width: 23.44px;
+  height: 15.95px;
+  top: 485.48px;
+  left: 245px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle6 {
+  width: 19.78px;
+  height: 10.18px;
+  top: 466px;
+  left: 307.22px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle7 {
+  width: 31px;
+  height: 16px;
+  top: 117px;
+  left: 1208px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle8 {
+  width: 77.81px;
+  height: 39px;
+  top: 133px;
+  left: 1224px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle9 {
+  width: 45px;
+  height: 23px;
+  top: 156px;
+  left: 1280px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle10 {
+  width: 103.47px;
+  height: 51.81px;
+  top: 557.19px;
+  left: 1085px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle11 {
+  width: 47.37px;
+  height: 24.08px;
+  top: 545px;
+  left: 1158px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle12 {
+  width: 68.02px;
+  height: 34.54px;
+  top: 574.46px;
+  left: 1171px;
+  gap: 0px;
+  opacity: 0px;
+}
+.half-circle13 {
+  background-color: #dadff4;
+  position: absolute;
+  border-radius: 100% 0% 0 0;
+  width: 55.5px;
+  height: 55px;
+  top: 487px;
+  right: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.play-but {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 52px;
+  height: 52px;
+  margin: 15px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-button {
+  width: 0;
+  height: 0;
+  border-radius: 2px;
+  border-top: 10px solid transparent; /* Размер верхнего треугольника */
+  border-bottom: 10px solid transparent; /* Размер нижнего треугольника */
+  border-left: 10px solid rgba(94, 129, 255, 1); /* Ширина и цвет левой стороны треугольника */
+  cursor: pointer; /* Добавляем курсор указывающий на возможность взаимодействия */
+}
+.line {
+  position: absolute;
+  width: 100%;
+  height: 330.51px;
+  left: 0;
+  top: 410px;
+  gap: 0px;
+}
+.line img {
+  width: 100%;
+}
+.point {
+  background-color: #fff;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  gap: 0px;
+  border-radius: 100%;
+  border: 2px solid;
+  border-color: rgb(94, 128, 254, 1);
+
+}
+.point:hover::after{
+   content: ''; /* Добавляем пустой контент */
+   position: absolute;
+   top: -60px; /* Располагаем вектор над элементом */
+   left: 50%; /* Положение в середине элемента */
+   margin-left: -46px; /* Смещаем влево на половину ширины изображения */
+   width: 92px; /* Ширина изображения */
+   height: 68px; /* Высота изображения */
+   background-image: url('img/stats.png'); /* Путь к вашему изображению */
+   background-size: cover; /* Растягиваем изображение, чтобы оно заполняло контейнер */
+   z-index: 2;
+}
+.point1 {
+  top: 312px;
+  left: 100px;
+ 
+}
+.point:hover {
+  cursor: pointer;
+}
+.point2 {
+  top: 287px;
+  left: 360px;
+}
+.point3 {
+  top: 264px;
+  left: 650px;
+}
+.point4 {
+  top: 79px;
+  right: 220px;
+}
+
+.brands img {
+  height: 24px;
+}
+.brands {
+  display: flex;
+  height: 145px;
+  justify-content: space-around;
+  align-items: center;
+}
